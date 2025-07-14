@@ -20,7 +20,7 @@ public class BaseClass {
     Select select=new Select(driver.findElement(By.id("searchDropdownBox")));
     select.selectByVisibleText("Amazon Devices");
     driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Phone");
-    
+    System.out.print("dsfgfd");
     
 }
 }
